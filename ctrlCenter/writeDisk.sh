@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./config
+source $(cd "$(dirname "$0")"; pwd)/config
 
 dbname="server_ctrl"
 tablename="monitor_disk"
