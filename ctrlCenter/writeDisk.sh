@@ -9,7 +9,7 @@ head="INSERT INTO $tablename VALUES ("
 tail=");"
 
 for addr in $listAddr; do
-    values=`ssh $lUser@$addr -p $pport 'curl -s http://$webHost/shellCtrl/monitor/disk.sh | sh'`
+    values=`ssh $lUser1@$addr -p $pport 'curl -s http://'$webHost'/shellCtrl/monitor/disk.sh | sh'`
     sql=`echo "$head$values$tail"`
     echo "$sql" | mysql -h $dbHost -u"$dbUser" "$dbname"
 done
