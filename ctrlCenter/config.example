@@ -8,8 +8,11 @@ listAddr="10.10.10.10
  10.10.10.12"
 
 pport=22
+lUser1="dev"
 
-mHost="localhost"
-mUser="user"
-mPass="pass"
+webHost="10.10.10.1"
+
+dbHost="localhost"
+dbUser="user"
+dbPass="pass"
 
