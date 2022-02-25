@@ -2,7 +2,7 @@
 
 ## 概念圖
 
-![Alt text](http://imagehosting.rickyfun.net/201607/A08-01.png)
+![Alt text](https://fblog.ooopiz.com/images/201607/A08-01.png)
 
 ## 說明
 當管理多台服務器時，挑選一台做為控制中心，利用這台控制中心對其他Server進行控制．
