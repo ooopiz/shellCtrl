@@ -2,7 +2,12 @@
 
 ## 概念圖
 
-![Alt text](https://fblog.ooopiz.com/images/201607/A08-01.png)
+```mermaid
+flowchart TD
+    A[Server Center Control] --> B{ssh remote command}
+    B --> C(Server 1) & D(Server 1) & E(Server 1)
+    C & D & E -.http get script.-> A
+```
 
 ## 說明
 當管理多台服務器時，挑選一台做為控制中心，利用這台控制中心對其他Server進行控制．
